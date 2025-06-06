@@ -5,11 +5,15 @@ Linux is a family of open-source Unix-like system with the most popular version 
 Since Linux is open-source are free to modification and distribution, this emerged various versions of the Linux system known as __Distros__ (*Distributions*) such as *Fedora*, *Debian* and most popular beginner friendly which is ***Ubuntu***, a distro I am curently interacting with.
 
 The linux unlike GUIs is CL-based and files are manipulated and shell navigated using programs like `pwd`, `cd`, `ls` (*the basics*) etc.
+
 ---
+
 ## The Linux File System
 
 Similar to the Windows file system, the Linux file system is organized in a tree-like structure. However, it does not employ the concept of ***Drive Letters*** where each storage device is assigned an alphabethical letter to indicate a seperate tree. In a Linux file system, a tree is maintained which is the top-layer of the file structure but may branch out to incate different storages.
+
 ---
+
 ## Task
 
 Navigate the Linux file system using basic tools like `cd, touch, cp, mv, rm, mkdir, an option -r`
@@ -19,7 +23,9 @@ Navigate the Linux file system using basic tools like `cd, touch, cp, mv, rm, mk
 By the end of the task, I should have:
 
 - Directories named "new_school", right_school", "temp", "not_here", "school_is_amazing", with placeholder files in each named ".gitkeep" all in my "Linux_navigation" directory which will serve the root directory in this context.
+
 ---
+
 ## Giving Context To Basic Linux Concepts and Features
 
 - **PWD**:A program you run on your cli to know your working directory.
