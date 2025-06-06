@@ -18,7 +18,7 @@ Navigate the Linux file system using basic tools like `cd, touch, cp, mv, rm, mk
 
 By the end of the task, I should have:
 
-- Empty directories named "new_school", right_school", "temp", "not_here", "school_is_amazing", all in my "Linux_navigation" directory which will serve the root directory in this context.
+- Directories named "new_school", right_school", "temp", "not_here", "school_is_amazing", with placeholder files in each named ".gitkeep" all in my "Linux_navigation" directory which will serve the root directory in this context.
 ---
 ## Giving Context To Basic Linux Concepts and Features
 
