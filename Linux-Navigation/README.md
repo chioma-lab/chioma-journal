@@ -45,37 +45,35 @@ By the end of the task, I should have:
 - **pwd**: Print Working Directory. A command you run on the CLI to know your working directory.
 
 Generic Example
-`
+```
+me@machine:WD$ pwd
+/home/me
 
-<span style="green">me@machine:WD$</span> pwd
-<span style="green">/home/me<span/>
-
-`
+```
 
 Actual Example
-`
+```
+chioma-lab@DESKTOP-XXX:~$ pwd
+/home/chioma-lab
 
-<span style="green">chioma-lab@DESKTOP-XXX:~$</span> pwd
-<span style="green">/home/chioma-lab</span>
-
-`
+```
 
 #### Breakdown
 
-`<span style="green">chioma-lab@DESKTOP-XXX~$</span>` is a representation of the Bash shell prompt in Linux subsystem.
+`chioma-lab@DESKTOP-XXX~$` is a representation of the Bash shell prompt in Linux subsystem.
 
 Where:
 
-`<span style="green">chioma-lab</span>`: The **username** currently logged into the subsystem
-`<span style="green">DESKTOPXXX</span>`: The **hostname** of the machine, in this case, my Windows pc.
-`<span style="green">~</span>`: Tilde represents the **home directory** of the current user (shorthand for `<span style="green">/home/chioma-lab`</span>). This part of the Bash shell prompt is **dynamic** as it changes when the **working directory** thus shown as **WD** (although, WD is not literally shown as a component of Bash shell, treat as an illustration)
-`<span style="green">$</span>`: Indicates I am an **ordinary user**. Not a **root** user. A **root** user would see **#** instead,
+`chioma-lab`: The **username** currently logged into the subsystem
+`DESKTOPXXX`: The **hostname** of the machine, in this case, my Windows pc.
+`~`: Tilde represents the **home directory** of the current user (shorthand for `/home/chioma-lab`). This part of the Bash shell prompt is **dynamic** as it changes when the **working directory** thus shown as **WD** (although, WD is not literally shown as a component of Bash shell, treat as an illustration)
+`$`: Indicates I am an **ordinary user**. Not a **root** user. A **root** user would see **#** instead,
 
 Hence, the bash shell prompt:
 
-`<span style="green">chioma-lab@DESKTOP-XXX:~$</span>`
+`chioma-lab@DESKTOP-XXX:~$`
 
-I am logged in as an ordinary user as `chioma-lab` in my home directory using bash via wsl on a host machine named `<span style="green">DESKTOP-XXX</span>`.
+I am logged in as an ordinary user as `chioma-lab` in my home directory using bash via wsl on a host machine named `DESKTOP-XXX`.
 
 - **Working** Directory: The current directory you're operating from in the CLI.
 - **Directory**: Known as "folder" in the Windows file system.
