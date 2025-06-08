@@ -105,7 +105,7 @@ Example:
 /home/me/path/to/a/filename
 ```
 
-	- /*Relative Pathname: Works its way from the working directory to the desired directory./*
+	- /*Relative Pathname: Works its way from the working directory to the desired directory.
 
 Example:
 
