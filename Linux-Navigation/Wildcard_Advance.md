@@ -8,15 +8,7 @@ Wildcards allow you to select filenames based on patterns of characters. The tab
 |:---|:---|
 |*|Matches any characters|
 |?|Matches any single character|
-|[characters]| Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following:
-
-||POSIX Character Classes
-
-||[:alnum:] Alphanumeric characters|
-||[:alpha:] Alphabetic characters|
-||[:digit:] Numerals|
-||[:upper:] Uppercase alphabetic characters|
-||[:lower:] Lowercase alphabetic characters|
+|[characters]| Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following: <br> POSIX Character Classes<br><br> `[:alnum:]` Alphanumeric characters <br> `[:alpha:]` Alphabetic characters <br> `[:digit:]` Numerals <br> `[:upper:]` Uppercase alphabetic characters <br> `[:lower:]` Lowercase alphabetic characters |
 |[!characters]|Matches any character that is not a member of the set characters|
 
 Using wildcards, it is possible to construct very sophisticated selection criteria for filenames. Here are some examples of patterns and what they match:
