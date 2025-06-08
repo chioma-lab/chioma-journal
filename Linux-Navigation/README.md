@@ -15,24 +15,28 @@ Linux CLI (*Command Line Interface*) unlike GUIs (*Graphical User Interfaces*) a
 Similar to the Windows file system, the Linux file system is organized in a tree-like structure. However, it does not employ the concept of ***Drive Letters*** where each storage device is assigned an alphabetical letter to indicate a stand-alone tree. In a Linux file system, a hierarchical tree is maintained, with `/` (*the root*) representing the top-most directory. All other files and directories branch out from this root, including those from different storage devices, which are mounted within the  structure. For example, in the context of WSL (*Windows Subsystem for Linux*), a mounted device would be:
 
 Syntax
+
  `/mnt/c/Users/Me`
 
 Actual Example
-`/mnt/c/Users/Chioma
+
+`/mnt/c/Users/Chioma`
 
 This is a virtual integration of my  Windows local drive assigned the alpahbetical letter `C:` into the environment of a WSL (Linux) file system (single) tree.
 
 #### Breakdown
 
 `/mnt`: A common directory for mounting external or additional file system.
+
 `/c`: C: drive from Windows mounted on WSL.
+
 `/mnt/c/Users/Chioma`: My specified User folder on Windows, accessible through WSL.
 
 ---
 
 ## Giving Context To Basic Linux Concepts and Features
 
-- **pwd**: Print Working Directory. A command you run on the CLI to know your working directory.
+- `pwd`: Print Working Directory. A command you run on the CLI to know your working directory.
 
 Generic Example
 ```
@@ -52,14 +56,19 @@ chioma-lab@DESKTOP-XXX:~$ pwd
 
 Where:
 
-`chioma-lab`: The **username** currently logged into the subsystem
+`chioma-lab`: The **username** currently logged into the subsystem.
+
 `DESKTOPXXX`: The **hostname** of the machine, in this case, my Windows pc.
-`~`: Tilde represents the **home directory** of the current user (shorthand for `/home/chioma-lab`). This part of the Bash prompt is **dynamic** as it changes when the **working directory** thus shown as **WD** (although, WD is not literally shown as a component of Bash shell, treat as an illustration)
-`$`: Indicates I am an **ordinary user**. Not a **root** user. A **root** user would see **#** instead,
+
+`~`: Tilde represents the **home directory** of the current user (shorthand for `/home/chioma-lab`). This part of the Bash prompt is **dynamic** as it changes when the **working directory** does shown as **WD** (although, WD is not literally shown as a component of Bash shell, treat as an illustration).
+
+`$`: Indicates I am an **ordinary user**. Not a **root** user. A **root** user would see `#` instead,
 
 Hence, the bash prompt:
 
-`chioma-lab@DESKTOP-XXX:~$`
+```
+chioma-lab@DESKTOP-XXX:~$
+```
 
 I am logged in as an ordinary user as `chioma-lab` in my home directory using bash via wsl on a host machine named `DESKTOP-XXX`.
 
@@ -90,6 +99,7 @@ Example:
 
 ```
 /home/me/path/to/a/filename
+
 ```
 
 	- Relative Pathname: Works its way from the working directory to the desired directory.
@@ -129,7 +139,9 @@ less text_file
 
 `file name-of-file`
 - `*`: /*Symbolizes a ***Wild card***. A command line feature that allows complex file manipulations through the concept of special characters to rapidly specify groups of filenames based on patterns. 
-[Wildcard Cheat Sheet](./wildcard_cheatsheet.md). [Deeper dive into wildcard](./Wildcard_Advance.md)
+[Wildcard Cheat Sheet](./wildcard_cheatsheet.md). 
+
+Optional: [Deeper dive into wildcard](./Wildcard_Advance.md)
 
 ```
 cp -u *.html destination
