@@ -98,16 +98,14 @@ home/me
 - **Pathname**: The route taken along the branches of the tree to get to the desired ***working directory***. See it as an address to desired resources.
 Pathname can be **Absolute or Relative**
   - Absolute Pathname: Starts from the root directory and works its way along the branches until the path to the desired directory is complete.
-
-Example:
+  - Relative Pathname: Works its way from the working directory to the desired directory.
+Example (Absolute):
 
 ```
 /home/me/path/to/a/filename
 ```
 
-   - Relative Pathname: Works its way from the working directory to the desired directory.
-
-Example:
+Example (Relative):
 
 ```
 ./path/to/a/desired_directory
