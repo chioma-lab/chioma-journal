@@ -117,7 +117,7 @@ Lists all content in a specified directory both the ones that start with period 
 Others,`-i` to interact with a file before command exection and `-r` to perform an action recursively.
 
 - **ASCII**: The mapping of text to numbers. An American standardization encoding scheme for text representation.
-- **Text**: A simple one-to-one mapping of characters to numbers.
+- **Text**: A simple one-to-one mapping of characters to numbers. You use the less command to view text files.
 - **less**: [less](https://linuxcommand.org/lc3_man_pages/less1.html) program that once invoked, allows us to view text files and [navigate](./Controlling_Less.md) through the pages.
 
 Example:
@@ -125,7 +125,7 @@ Example:
 ```
 less text_file
 ```
-- **file**: Helps determine what type of file it is before viewing. Some file types are bash, html, jpeg etc.
+- **file**: Helps determine what [type of file](./File_Types.md) it is before viewing. Some file types are bash, html, jpeg etc.
 
 `file name-of-file`
 - `*`: /*Symbolizes a ***Wild card***. A command line feature that allows complex file manipulations through the concept of special characters to rapidly specify groups of filenames based on patterns. 
@@ -148,10 +148,10 @@ Crucial Tools In Interacting With Linux System
 | ls | -l | ls -l | List all files in the working directory in a long format |
 | ls | -l | ls -l /etc /bin | List all files in the directory /`etc` and `/bin` in a long format |
 | ls | -la | ls -la .. | List all files both the hidden folders of the working directory parent's directory in a long format|
-| cp | | Copy files and directory |
-| mv | | Move or rename files and directories |
-| rm | | Remove files and directories |
-| mkdir | | Create directory |
+| cp | | | Copy files and directory |
+| mv | | | Move or rename files and directories |
+| rm | | | Remove files and directories |
+| mkdir | | | Create directory |
 | --help| Used after a command | ls --help | Shows quick help for a command |
 | man | | man ls | Displays manual or detailed usage of a command |
 
@@ -167,7 +167,8 @@ By the end of the task, you should have:
 
 Click [here](./Practice_Task.md) for a step-by-step getting started with CLI, and a practice along tasks if you feel unsure.
 
-####**Author**: 
+####Author:
+
 Chioma Williams
 
 **Email**: chiomawilliams001@gmail.com
