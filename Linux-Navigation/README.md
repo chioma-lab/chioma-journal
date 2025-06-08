@@ -99,6 +99,7 @@ home/me
 Pathname can be **Absolute or Relative**
   - Absolute Pathname: Starts from the root directory and works its way along the branches until the path to the desired directory is complete.
   - Relative Pathname: Works its way from the working directory to the desired directory.
+
 Example (Absolute):
 
 ```
