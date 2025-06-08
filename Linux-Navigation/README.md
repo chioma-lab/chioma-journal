@@ -129,7 +129,7 @@ less text_file
 
 `file name-of-file`
 - `*`: /*Symbolizes a ***Wild card***. A command line feature that allows complex file manipulations through the concept of special characters to rapidly specify groups of filenames based on patterns. 
-[Wildcard Cheat Sheet](./wildcard_cheatsheet.md)
+[Wildcard Cheat Sheet](./wildcard_cheatsheet.md). [Deeper dive into wildcard](./Wildcard_Advance.md)
 
 ```
 cp -u *.html destination
@@ -157,7 +157,7 @@ Crucial Tools In Interacting With Linux System
 
 ## Task
 
-Navigate the Linux file system using basic tools like `cd, touch, cp, mv, rm, mkdir, an option -r`
+Navigate the Linux file system using basic tools like cd, touch, [cp](https://linuxcommand.org/lc3_man_pages/cp1.html), [mv](https://linuxcommand.org/lc3_man_pages/mv1.html), [rm](https://linuxcommand.org/lc3_man_pages/rm1.html), [mkdir](https://linuxcommand.org/lc3_man_pages/mkdir1.html), an option `-r`
 
 ### Task Outcome
 
@@ -167,7 +167,9 @@ By the end of the task, you should have:
 
 Click [here](./Practice_Task.md) for a step-by-step getting started with CLI, and a practice along tasks if you feel unsure.
 
-####Author:
+[Further Reading](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/tmp.html)
+
+#### Author:
 
 Chioma Williams
 
