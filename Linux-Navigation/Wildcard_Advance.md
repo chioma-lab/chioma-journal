@@ -8,12 +8,12 @@ Wildcards allow you to select filenames based on patterns of characters. The tab
 |:---|:---|
 |*|Matches any characters|
 |?||Matches any single character|
-|[characters]|Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following:
+|[characters]| Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following:
 
 POSIX Character Classes
 
-|[:alnum:]|Alphanumeric characters|
-|[:alpha:]|Alphabetic characters|
+||[:alnum:]|Alphanumeric characters||
+||[:alpha:]|Alphabetic characters||
 |[:digit:]|Numerals|
 |[:upper:]|Uppercase alphabetic characters|
 |[:lower:]|Lowercase alphabetic characters|
