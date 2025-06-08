@@ -8,34 +8,21 @@ Wildcards allow you to select filenames based on patterns of characters. The tab
 |:---|:---|
 |*|Matches any characters|
 |?|Matches any single character|
-|[characters]| Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following: <br> POSIX Character Classes<br><br> `[:alnum:]` Alphanumeric characters <br> `[:alpha:]` Alphabetic characters <br> `[:digit:]` Numerals <br> `[:upper:]` Uppercase alphabetic characters <br> `[:lower:]` Lowercase alphabetic characters |
+|[characters]| Matches any character that is a member of the set characters. The set of characters may also be expressed as a POSIX character class such as one of the following: <br><br> POSIX Character Classes<br><br> `[:alnum:]` Alphanumeric characters <br> `[:alpha:]` Alphabetic characters <br> `[:digit:]` Numerals <br> `[:upper:]` Uppercase alphabetic characters <br> `[:lower:]` Lowercase alphabetic characters |
 |[!characters]|Matches any character that is not a member of the set characters|
 
 Using wildcards, it is possible to construct very sophisticated selection criteria for filenames. Here are some examples of patterns and what they match:
 
 
-Examples of wildcard matching
-Pattern	Matches
-*	
-All filenames
+## Examples of wildcard matching
 
-g*	
-All filenames that begin with the character "g"
-
-b*.txt	
-All filenames that begin with the character "b" and end with the characters ".txt"
-
-Data???	
-Any filename that begins with the characters "Data" followed by exactly 3 more characters
-
-[abc]*	
-Any filename that begins with "a" or "b" or "c" followed by any other characters
-
-[[:upper:]]*	
-Any filename that begins with an uppercase letter. This is an example of a character class.
-
-BACKUP.[[:digit:]][[:digit:]]	
-Another example of character classes. This pattern matches any filename that begins with the characters "BACKUP." followed by exactly two numerals.
-
-*[![:lower:]]	
-Any filename that does not end with a lowercase letter.
+|Pattern|Matches|
+|:---|:---|
+|*|All filenames|
+|g*|All filenames that begin with the character "g"|
+|b*.txt|All filenames that begin with the character "b" and end with the characters ".txt"|
+|Data???|Any filename that begins with the characters "Data" followed by exactly 3 more characters|
+|[abc]*|Any filename that begins with "a" or "b" or "c" followed by any other characters|
+|[[:upper:]]*|Any filename that begins with an uppercase letter. <br> This is an example of a character class.|
+|BACKUP.[[:digit:]][[:digit:]]|Another example of character classes. This pattern matches any filename that begins with the characters "BACKUP." followed by exactly two numerals.|
+|*[![:lower:]]|Any filename that does not end with a lowercase letter.|
