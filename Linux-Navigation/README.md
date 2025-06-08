@@ -16,11 +16,15 @@ Similar to the Windows file system, the Linux file system is organized in a tree
 
 Syntax
 
- `/mnt/c/Users/Me`
+ ```
+/mnt/c/Users/Me
+```
 
 Actual Example
 
-`/mnt/c/Users/Chioma`
+```
+/mnt/c/Users/Chioma
+```
 
 This is a virtual integration of my  Windows local drive assigned the alpahbetical letter `C:` into the environment of a WSL (Linux) file system (single) tree.
 
@@ -99,10 +103,9 @@ Example:
 
 ```
 /home/me/path/to/a/filename
-
 ```
 
-	- Relative Pathname: Works its way from the working directory to the desired directory.
+	- /*Relative Pathname: Works its way from the working directory to the desired directory./*
 
 Example:
 
