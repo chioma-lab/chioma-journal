@@ -23,13 +23,13 @@ Analysis	Interpreting patterns, trends
 Visualization	Communicating findings via charts, dashboards
 Interpretation	Telling the story / making decisions/*
 
-5. /*Data Quality Dimensions
+5. \*Data Quality Dimensions
 High-quality data ensures valid insights:
-Accuracy
-Completeness
-Consistency
-Timeliness
-Uniqueness
+- Accuracy
+- Completeness
+- Consistency
+- Timeliness
+- Uniqueness\*
 
 6. Ethics & Privacy
 Responsible data handling: e.g., anonymization, data protection, informed consent
@@ -43,10 +43,10 @@ Databases: SQL-based, NoSQL-based.
 Entities, attributes, keys (esp. for SQL/database work)
 🌟 Summary (Mental Checklist)
 To understand data well, be able to answer:
-What kind of data is this?
-Where did it come from?
-How is it structured or stored?
-What is it measuring or describing?
-Is it clean and accurate?
-What can it be used for?
-Are there ethical concerns?
+- What kind of data is this?
+- Where did it come from?
+- How is it structured or stored?
+- What is it measuring or describing?
+- Is it clean and accurate?
+- What can it be used for?
+- Are there ethical concerns?
