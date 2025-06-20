@@ -6,14 +6,14 @@ To properly understand data, especially from a data analytics lens, you need to 
 
 Here’s a clear breakdown:
 
-🔑 /***Fundamentals of Data You Must Understand**/*
-1. /*Definition and Nature of Data/*
+🔑 **Fundamentals of Data You Must Understand**
+1. Definition and Nature of Data
 
-2. /*Types of Data/*
+2. Types of Data
 
-3. /*Sources of Data/*
+3. Sources of Data
 
-4. /*Data Lifecycle / Flow
+4. Data Lifecycle / Flow
 Understanding this helps in designing proper analysis:
 Stage	What Happens
 Collection	Data is gathered (manual or automated)
@@ -21,15 +21,15 @@ Storage	Saved in databases, spreadsheets, etc.
 Cleaning	Errors removed, blanks handled
 Analysis	Interpreting patterns, trends
 Visualization	Communicating findings via charts, dashboards
-Interpretation	Telling the story / making decisions/*
+Interpretation	Telling the story / making decisions
 
-5. \*Data Quality Dimensions
+5. Data Quality Dimensions
 High-quality data ensures valid insights:
 - Accuracy
 - Completeness
 - Consistency
 - Timeliness
-- Uniqueness\*
+- Uniqueness
 
 6. Ethics & Privacy
 Responsible data handling: e.g., anonymization, data protection, informed consent
