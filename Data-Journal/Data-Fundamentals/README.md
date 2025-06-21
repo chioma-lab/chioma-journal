@@ -16,18 +16,18 @@ Here’s a clear breakdown:
 
 2. Types of Data
 | Type                | Description                           | Examples                  |
-| ------------------- | ------------------------------------- | ------------------------- |
-| **Structured**      | Organized in rows/columns             | Spreadsheets, databases   |
-| **Unstructured**    | No fixed format                       | Images, videos, free text |
-| **Semi-structured** | Has some organization but not tabular | JSON, XML                 |
+|:------------------- |:------------------------------------- |:------------------------- |
+| Structured      | Organized in rows/columns             | Spreadsheets, databases   |
+| Unstructured    | No fixed format                       | Images, videos, free text |
+| Semi-structured | Has some organization but not tabular | JSON, XML                 |
 
 3. By Measurement
 | Level        | What it Describes        | Example                          |
-| ------------ | ------------------------ | -------------------------------- |
-| **Nominal**  | Categories without order | Gender, color                    |
-| **Ordinal**  | Categories with order    | Survey rating (Poor, Fair, Good) |
-| **Interval** | Numerical, no true zero  | Temperature (Celsius)            |
-| **Ratio**    | Numerical, has true zero | Age, income, height              |
+|: ------------ |: ------------------------ |: -------------------------------- |
+| Nominal  | Categories without order | Gender, color                    |
+| Ordinal  | Categories with order    | Survey rating (Poor, Fair, Good) |
+| Interval | Numerical, no true zero  | Temperature (Celsius)            |
+| Ratio    | Numerical, has true zero | Age, income, height              |
 
 3. Sources of Data
 - Primary data: Collected firsthand (surveys, interviews)
