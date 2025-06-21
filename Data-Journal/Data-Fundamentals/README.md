@@ -36,14 +36,14 @@ Here’s a clear breakdown:
 
 4. Data Lifecycle / Flow
 Understanding this helps in designing proper analysis:
-| Stage              | What Happens                                  |
+|Stage|What Happens|
 |:------------------|:----------------------------------------------|
-| **Collection**     | Data is gathered (manual or automated)        |
-| **Storage**        | Saved in databases, spreadsheets, etc.        |
-| **Cleaning**       | Errors removed, blanks handled                |
-| **Analysis**       | Interpreting patterns, trends                 |
-| **Visualization**  | Communicating findings via charts, dashboards |
-| **Interpretation** | Telling the story / making decisions          |
+|**Collection**|Data is gathered (manual or automated)|
+|**Storage**|Saved in databases, spreadsheets, etc.|
+|**Cleaning**|Errors removed, blanks handled|
+|**Analysis**|Interpreting patterns, trends|
+|**Visualization**|Communicating findings via charts, dashboards|
+|**Interpretation**|Telling the story / making decisions|
 
 
 5. Data Quality Dimensions
