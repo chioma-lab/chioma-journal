@@ -45,6 +45,10 @@ Understanding this helps in designing proper analysis:
 | **Visualization**  | Communicating findings via charts, dashboards |
 | **Interpretation** | Telling the story / making decisions          |
 
+|Test|Test|Test|
+|:---|:---|:---|
+|Test|Test|Test|
+
 5. Data Quality Dimensions
 High-quality data ensures valid insights:
 - Accuracy
