@@ -1,10 +1,10 @@
 # The Fundamentals of Data You Must Note
 
-Data are means to favourable to outcomes. The world of data is vast and dynamic where our access to information increases. To be able to tap the hidden value of data, we must first **understand its fundamentals** To understand data fundamentals, one has to acquire the knowledge, skill, and technique which enables you to craft insights, make informed decisions, and unlock opportunities just by leveraging the data that abounds us.
+Data are means to favourable to outcomes. The world of data is vast and dynamic where our access to information increases. To be able to tap the hidden value of data, we must first **understand its fundamentals**. To understand data fundamentals, one has to acquire the knowledge, skill, and technique which enables us craft insights, make informed decisions, and unlock opportunities just by leveraging the data that abounds us.
 
 Additionally, for those seeking to start a career in the data profession, familiarizing oneself with data fundatamentals should be a non negotible to start off right and strong.
 
-To properly understand data, especially from a data analytics lens, you need to grasp the fundamentals that govern what **data is**, **how it behaves**, **how it's categorized**, and **how it flows from raw form to insight*.
+To properly understand data, especially from a data analytics lens, one needs to grasp the fundamentals that govern what **data is**, **how it behaves**, **how it's categorized**, and **how it flows from raw form to insight*.
 
 Here’s a clear breakdown:
 
