@@ -10,8 +10,8 @@ Here’s a clear breakdown:
 
 🔑 **Fundamentals of Data You Must Understand**
 1. Definition and Nature of Data
-- Data = Collection od distinct values represented by characters.
-- They can be letters(Aa), digits(012) or special symbols(&<).
+- Data = Collection of distinct values represented by characters.
+- The characters can be letters(Aa), digits(012) or special symbols(&<).
 - They have no inherent meaning.
 
 2. Types of Data
@@ -40,7 +40,7 @@ Here’s a clear breakdown:
 Understanding this helps in designing proper analysis:
 
 |Stage|What Happens|
-|:------------------|:----------------------------------------------|
+|:i------------------|:----------------------------------------------|
 |**Collection**|Data is gathered (manual or automated)|
 |**Storage**|Saved in databases, spreadsheets, etc.|
 |**Cleaning**|Errors removed, blanks handled|
