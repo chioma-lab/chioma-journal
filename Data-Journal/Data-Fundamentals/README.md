@@ -15,6 +15,7 @@ Here’s a clear breakdown:
 - They have no inherent meaning.
 
 2. Types of Data
+
 |Type|Description|Examples|
 |:-------------------|:-------------------------------------|:-------------------------|
 |Structured|Organized in rows/columns|Spreadsheets, databases|
@@ -22,6 +23,7 @@ Here’s a clear breakdown:
 |Semi-structured|Has some organization but not tabular|JSON, XML|
 
 3. By Measurement
+
 |Level|What it Describes|Example|
 |:------------|:------------------------|:--------------------------------|
 |Nominal|Categories without order|Gender, color|
