@@ -15,26 +15,26 @@ Here’s a clear breakdown:
 - They have no inherent meaning.
 
 2. Types of Data
-| Type                | Description                           | Examples                  |
-|:------------------- |:------------------------------------- |:------------------------- |
-| Structured      | Organized in rows/columns             | Spreadsheets, databases   |
-| Unstructured    | No fixed format                       | Images, videos, free text |
-| Semi-structured | Has some organization but not tabular | JSON, XML                 |
+|Type|Description|Examples|
+|:-------------------|:-------------------------------------|:-------------------------|
+|Structured|Organized in rows/columns|Spreadsheets, databases|
+|Unstructured|No fixed format|Images, videos, free text|
+|Semi-structured|Has some organization but not tabular|JSON, XML|
 
 3. By Measurement
-| Level        | What it Describes        | Example                          |
-|: ------------ |: ------------------------ |: -------------------------------- |
-| Nominal  | Categories without order | Gender, color                    |
-| Ordinal  | Categories with order    | Survey rating (Poor, Fair, Good) |
-| Interval | Numerical, no true zero  | Temperature (Celsius)            |
-| Ratio    | Numerical, has true zero | Age, income, height              |
+|Level|What it Describes|Example|
+|:------------|:------------------------|:--------------------------------|
+|Nominal|Categories without order|Gender, color|
+|Ordinal|Categories with order|Survey rating (Poor, Fair, Good)|
+|Interval|Numerical, no true zero|Temperature (Celsius)|
+|Ratio|Numerical, has true zero|Age, income, height|
 
-3. Sources of Data
+4. Sources of Data
 - Primary data: Collected firsthand (surveys, interviews)
 - Secondary data: Already collected by others (databases, reports)
 - Internal (from your organization) vs External (public, purchased)
 
-4. Data Lifecycle / Flow
+5. Data Lifecycle / Flow
 Understanding this helps in designing proper analysis:
 
 |Stage|What Happens|
@@ -47,7 +47,7 @@ Understanding this helps in designing proper analysis:
 |**Interpretation**|Telling the story / making decisions|
 
 
-5. Data Quality Dimensions
+6. Data Quality Dimensions
 High-quality data ensures valid insights:
 - Accuracy
 - Completeness
@@ -55,15 +55,15 @@ High-quality data ensures valid insights:
 - Timeliness
 - Uniqueness
 
-6. Ethics & Privacy
+7. Ethics & Privacy
 Responsible data handling: e.g., anonymization, data protection, informed consent
 Laws: e.g., GDPR, NDPR (Nigeria)
 
-7. Data Formats & File Types
+8. Data Formats & File Types
 CSV, Excel, JSON, XML: Common formats you'll interact with.
 Databases: SQL-based, NoSQL-based.
 
-8. Basic Data Modeling Concepts
+9. Basic Data Modeling Concepts
 Entities, attributes, keys (esp. for SQL/database work)
 🌟 Summary (Mental Checklist)
 To understand data well, be able to answer:
