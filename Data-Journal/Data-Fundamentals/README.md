@@ -1,6 +1,8 @@
 # The Fundamentals of Data You Must Note
 
-Data is a means to a favourable to come. It abounds us and is ever evolving. To tap the value of data, one has to acquire the knowledge, skill, and technique. To start of right and strong, one should ideally gain mastery of the fundamentals of data which will form the basis data learning.
+Data are means to favourable to outcomes. The world of data is vast and dynamic where our access to information increases. To be able to tap the hidden value of data, we must first **understand its fundamentals** To understand data fundamentals, one has to acquire the knowledge, skill, and technique which enables you to craft insights, make informed decisions, and unlock opportunities just by leveraging the data that abounds us.
+
+Additionally, for those seeking to start a career in the data profession, familiarizing oneself with data fundatamentals should be a non negotible to start off right and strong.
 
 To properly understand data, especially from a data analytics lens, you need to grasp the fundamentals that govern what **data is**, **how it behaves**, **how it's categorized**, and **how it flows from raw form to insight*.
 
@@ -8,20 +10,40 @@ Here’s a clear breakdown:
 
 🔑 **Fundamentals of Data You Must Understand**
 1. Definition and Nature of Data
+- Data = Collection od distinct values represented by characters.
+- They can be letters(Aa), digits(012) or special symbols(&<).
+- They have no inherent meaning.
 
 2. Types of Data
+| Type                | Description                           | Examples                  |
+| ------------------- | ------------------------------------- | ------------------------- |
+| **Structured**      | Organized in rows/columns             | Spreadsheets, databases   |
+| **Unstructured**    | No fixed format                       | Images, videos, free text |
+| **Semi-structured** | Has some organization but not tabular | JSON, XML                 |
+
+3. By Measurement
+| Level        | What it Describes        | Example                          |
+| ------------ | ------------------------ | -------------------------------- |
+| **Nominal**  | Categories without order | Gender, color                    |
+| **Ordinal**  | Categories with order    | Survey rating (Poor, Fair, Good) |
+| **Interval** | Numerical, no true zero  | Temperature (Celsius)            |
+| **Ratio**    | Numerical, has true zero | Age, income, height              |
 
 3. Sources of Data
+- Primary data: Collected firsthand (surveys, interviews)
+- Secondary data: Already collected by others (databases, reports)
+- Internal (from your organization) vs External (public, purchased)
 
 4. Data Lifecycle / Flow
 Understanding this helps in designing proper analysis:
-Stage	What Happens
-Collection	Data is gathered (manual or automated)
-Storage	Saved in databases, spreadsheets, etc.
-Cleaning	Errors removed, blanks handled
-Analysis	Interpreting patterns, trends
-Visualization	Communicating findings via charts, dashboards
-Interpretation	Telling the story / making decisions
+| Stage              | What Happens                                  |
+| ------------------ | --------------------------------------------- |
+| **Collection**     | Data is gathered (manual or automated)        |
+| **Storage**        | Saved in databases, spreadsheets, etc.        |
+| **Cleaning**       | Errors removed, blanks handled                |
+| **Analysis**       | Interpreting patterns, trends                 |
+| **Visualization**  | Communicating findings via charts, dashboards |
+| **Interpretation** | Telling the story / making decisions          |
 
 5. Data Quality Dimensions
 High-quality data ensures valid insights:
