@@ -40,7 +40,7 @@ Here’s a clear breakdown:
 Understanding this helps in designing proper analysis:
 
 |Stage|What Happens|
-|:i------------------|:----------------------------------------------|
+|:------------------|:----------------------------------------------|
 |**Collection**|Data is gathered (manual or automated)|
 |**Storage**|Saved in databases, spreadsheets, etc.|
 |**Cleaning**|Errors removed, blanks handled|
